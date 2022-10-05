@@ -1,0 +1,35 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string vowel="aeiou1234567890@!#$%";
+        // char c=Convert.ToChar(Console.ReadLine());
+        char c='1';
+        int x=vowel.IndexOf(c);
+        //20
+        if(x>=0 && x<5)
+        {
+            Console.WriteLine("vowel");
+        }
+        else if(x>=5 && x<15)
+        {
+            Console.WriteLine("number");
+        }
+        
+        else if(x>16)
+        {
+            Console.WriteLine("Symbols");
+        }
+        else
+        {
+            Console.WriteLine("undefined");
+        }
+        
+       
+    }
+}

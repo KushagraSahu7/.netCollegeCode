@@ -1,0 +1,19 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void calcVal(int a,int b,int c)
+    {
+        Console.WriteLine((a+b)*c +"\n");
+        // Console.WriteLine("\n");
+        Console.WriteLine(  ((a*b)+(b*c)) );
+       
+    }
+    public static void Main(string[] args)
+    {
+        calcVal(2,3,1);
+    }
+}

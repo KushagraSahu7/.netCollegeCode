@@ -1,0 +1,20 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+       int a,b;
+        Console.WriteLine("Enter num1");
+        a=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter num2");
+        b=Convert.ToInt32(Console.ReadLine());
+      
+       int x= (a==b? b*3:a+b);
+       Console.WriteLine(x);
+       
+    }
+}
